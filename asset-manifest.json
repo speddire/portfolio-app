@@ -1,13 +1,36 @@
 {
   "files": {
-    "main.css": "/portfolio-app/static/css/main.9d1ba2a1.css",
-    "main.js": "/portfolio-app/static/js/main.a5882891.js",
+    "main.css": "/portfolio-app/static/css/main.c607b9b7.css",
+    "main.js": "/portfolio-app/static/js/main.a7449f37.js",
+    "static/js/453.dcefe9c8.chunk.js": "/portfolio-app/static/js/453.dcefe9c8.chunk.js",
+    "static/media/installm.png": "/portfolio-app/static/media/installm.233f180750e53b6e10ba.png",
+    "static/media/survey.png": "/portfolio-app/static/media/survey.ede9de7574631d6eadb7.png",
+    "static/media/anomaly1.png": "/portfolio-app/static/media/anomaly1.14fbfa4b7334a690cb53.png",
+    "static/media/recruiting_product.png": "/portfolio-app/static/media/recruiting_product.982539ac215d734bb8a5.png",
+    "static/media/bigjab1.png": "/portfolio-app/static/media/bigjab1.0bc779f4a188b768e543.png",
+    "static/media/workday.png": "/portfolio-app/static/media/workday.10c853e537c20af3b5e7.png",
+    "static/media/baseball_1.png": "/portfolio-app/static/media/baseball_1.9c80667390e3f599d03f.png",
+    "static/media/classplus.png": "/portfolio-app/static/media/classplus.8287e41c82cc327f46a1.png",
+    "static/media/ticketmaster.png": "/portfolio-app/static/media/ticketmaster.ba4714280e92ce2bfc14.png",
+    "static/media/gpay.png": "/portfolio-app/static/media/gpay.3681ae90008164534c05.png",
+    "static/media/narrative.png": "/portfolio-app/static/media/narrative.6a42b11f2eb8fcb2feb1.png",
+    "static/media/mlip.png": "/portfolio-app/static/media/mlip.f87bd1b4393a647c2701.png",
+    "static/media/mumbai.avif": "/portfolio-app/static/media/mumbai.b981daa8485eef99993d.avif",
+    "static/media/swiggy.png": "/portfolio-app/static/media/swiggy.ba5265d2fcd78c766b26.png",
+    "static/media/tartanmart.png": "/portfolio-app/static/media/tartanmart.a881a3c6e44e44e71617.png",
+    "static/media/likewise_dating.png": "/portfolio-app/static/media/likewise_dating.bf89660ddf06ed8598fb.png",
+    "static/media/linkedin_competitive.png": "/portfolio-app/static/media/linkedin_competitive.d6bd95815d32f82158f3.png",
+    "static/media/hiking.png": "/portfolio-app/static/media/hiking.06791d2bf95d7dedea0c.png",
+    "static/media/bookstore.jpeg": "/portfolio-app/static/media/bookstore.6d70925af9d87fe35877.jpeg",
+    "static/media/blockchain.png": "/portfolio-app/static/media/blockchain.056f06b16140ff999cb8.png",
+    "static/media/Shrutha_logo_3.png": "/portfolio-app/static/media/Shrutha_logo_3.146f868ea9a5ee3ae802.png",
     "index.html": "/portfolio-app/index.html",
-    "main.9d1ba2a1.css.map": "/portfolio-app/static/css/main.9d1ba2a1.css.map",
-    "main.a5882891.js.map": "/portfolio-app/static/js/main.a5882891.js.map"
+    "main.c607b9b7.css.map": "/portfolio-app/static/css/main.c607b9b7.css.map",
+    "main.a7449f37.js.map": "/portfolio-app/static/js/main.a7449f37.js.map",
+    "453.dcefe9c8.chunk.js.map": "/portfolio-app/static/js/453.dcefe9c8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d1ba2a1.css",
-    "static/js/main.a5882891.js"
+    "static/css/main.c607b9b7.css",
+    "static/js/main.a7449f37.js"
   ]
 }
