@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio-app/static/css/main.c607b9b7.css",
-    "main.js": "/portfolio-app/static/js/main.a7449f37.js",
+    "main.js": "/portfolio-app/static/js/main.9ab905ef.js",
     "static/js/453.dcefe9c8.chunk.js": "/portfolio-app/static/js/453.dcefe9c8.chunk.js",
     "static/media/installm.png": "/portfolio-app/static/media/installm.233f180750e53b6e10ba.png",
     "static/media/survey.png": "/portfolio-app/static/media/survey.ede9de7574631d6eadb7.png",
@@ -26,11 +26,11 @@
     "static/media/Shrutha_logo_3.png": "/portfolio-app/static/media/Shrutha_logo_3.146f868ea9a5ee3ae802.png",
     "index.html": "/portfolio-app/index.html",
     "main.c607b9b7.css.map": "/portfolio-app/static/css/main.c607b9b7.css.map",
-    "main.a7449f37.js.map": "/portfolio-app/static/js/main.a7449f37.js.map",
+    "main.9ab905ef.js.map": "/portfolio-app/static/js/main.9ab905ef.js.map",
     "453.dcefe9c8.chunk.js.map": "/portfolio-app/static/js/453.dcefe9c8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c607b9b7.css",
-    "static/js/main.a7449f37.js"
+    "static/js/main.9ab905ef.js"
   ]
 }
