@@ -27,6 +27,14 @@ import workday from "../../assets/productImages/workday.png";
 import linkedin from "../../assets/productImages/linkedin_competitive.png";
 import recruit from "../../assets/productImages/recruiting_product.png";
 import likewise from "../../assets/productImages/likewise_dating.png";
+import tele from "../../assets/productImages/tele.png";
+import zar1 from "../../assets/productImages/zar1.png";
+import comm from "../../assets/productImages/comm.png";
+import dms from "../../assets/productImages/dms.png";
+import mm from "../../assets/productImages/mm.png";
+import mm1 from "../../assets/productImages/mm1.png";
+import mm2 from "../../assets/productImages/mm2.png";
+
 
 const StyledCard = styled(Card)(({ theme }) => ({
   transition: "transform 0.15s ease-in-out",
@@ -70,141 +78,173 @@ export default function TitlebarBelowImageList({ tabName }) {
     'software': [
       {
         img: tartanmartImage,
-        title: 'TartanMart - CMU Marketplace',
-        author: 'Jainam Gala',
+        title: 'CMU Marketplace',
+        author: 'Shrutha Keerthi',
         skill: ['Web Development', 'Django', 'React', 'REST APIs', 'AWS Cloud', 'Full Stack'],
-        url: 'https://drive.google.com/drive/folders/1JDVG6FjoC_tFT4ci36P52nDvUKrCfnuo?usp=sharing'
+        url: 'https://drive.google.com/drive/u/3/folders/1lDL0gdnZaEsXVhJX7ZI67XQs-PAA4-88'
       },
       {
         img: narrative,
-        title: 'Narrative LLC - Mergers and Acquisitions Data Platform',
-        author: 'Jainam Gala',
-        skill: ['Web Development', 'Flask', 'React', 'REST APIs', 'Web Design', 'Figma'],
-        url: ''
+        title: 'Lending Club Risk Assessment',
+        author: 'Shrutha Keerthi',
+        skill: ['Machine Learning', 'R', 'Business Analytics'],
+        url: 'https://drive.google.com/drive/u/3/folders/1ANBq1NQGPst3b_s3z2u-Zy-8xCjyNBtM'
       },
       {
         img: installm,
         title: 'Instagram LLM Search Engine',
-        author: 'Jainam Gala',
+        author: 'Shrutha Keerthi',
         skill: ['Django', 'OpenAI API', 'LLM'],
-        url: 'https://drive.google.com/drive/folders/1WirzL7TE21maHPAys0o9AKTMkEf6m5Ti?usp=sharing'
+        url: 'https://drive.google.com/drive/u/3/folders/1W0KXa-wEVzNgOXPTNhffsTH5KZoNLd2y'
       },
       {
         img: bookstore,
         title: 'Bookstore API Application',
-        author: 'Jainam Gala',
+        author: 'Shrutha Keerthi',
         skill: ['REST APIs', 'Django', 'Postman', 'Kafka', 'Async Programming', 'BFF Design'],
-        url: 'https://drive.google.com/drive/folders/1HvKBKOu3AYliBCiNxSUosFOH3cZAgIJH?usp=sharing'
+        url: 'https://drive.google.com/drive/u/3/folders/1rsz78_IDmC-Lq3DG1KKNh6oXwJo3-R4-'
       },
       {
         img: hiking,
-        title: 'Hiking Tours - Web Architecture',
-        author: 'Jainam Gala',
+        title: 'Viking Tours - Web Architecture',
+        author: 'Shrutha Keerthi',
         skill: ['Object-Oriented', 'Domain Diagram', 'Sequence Diagram', 'Figma Wireframing'],
-        url: 'https://drive.google.com/file/d/19J8h_m-Imyoviz9cPYxgVgLLc8RGKf96/view?usp=sharing'
+        url: 'https://drive.google.com/drive/u/3/folders/1JU0W0g9eju7DJV_OVeAzBgUEI0186qw2'
       },
       {
         img: ticketmasterImage,
         title: 'Ticketmaster API - Android Mobile App',
-        author: 'Jainam Gala',
+        author: 'Shrutha Keerthi',
         skill: ['Android', 'REST APIs', 'Mobile Development', 'Web Analytics', 'Java', 'Android Studio'],
-        url: 'https://drive.google.com/drive/folders/155vKN1r5ZGQyEjnH49am_DHzB_nwK2aM?usp=sharing'
+        url: 'https://drive.google.com/drive/u/3/folders/1JU0W0g9eju7DJV_OVeAzBgUEI0186qw2'
       },
       {
         img: baseballImage,
         title: 'Baseball API Application',
-        author: 'Jainam Gala',
+        author: 'Shrutha Keerthi',
         skill: ['API Development', 'Java Servlets'],
-        url: 'https://drive.google.com/drive/folders/1o-BvqsDup6rSG7DI0j7yF3Was2sK3nfD?usp=sharing'
+        url: 'https://drive.google.com/drive/u/3/folders/1Mk2QLwZka3umlUZjzF6EOVl9qoDsD12u'
       },
       {
         img: blockchainImage,
         title: 'Blockchain - Ground up',
-        author: 'Jainam Gala',
+        author: 'Shrutha Keerthi',
         skill: ['Blockchain', 'Java', 'Cryptography'],
-        url: 'https://drive.google.com/drive/folders/1tB3ARIz-nHA6ARPWhuO825yDtDHgyOAZ?usp=sharing'
+        url: 'https://drive.google.com/drive/u/3/folders/12ZZaLYxR7QHXVaBuYINlFoqOD5NVQ1vW'
       },
     ],
     'data': [
       {
         img: mlip,
         title: 'Movie Recommendation System',
-        author: 'Jainam Gala',
+        author: 'Shrutha Keerthi',
         skill: ['MLOps', 'Machine Learning', 'ML Security', 'A/B Testing', 'Model Evaluation', 'Model Deployment', 'Github Actions', 'CI/CD Pipeline', 'Prometheus', 'Grafana'],
-        url: 'https://drive.google.com/drive/folders/1wPNiy1Uxfm9G9B96VtA2AfwV16u5EGld?usp=sharing'
+        url: 'https://drive.google.com/drive/u/3/folders/1muk0m5lG64Zo5mkoChBxRQlVIfFCwLND'
       },
       {
         img: survey,
         title: 'Survey Analysis',
-        author: 'Jainam Gala',
+        author: 'Shrutha Keerthi',
         skill: ['Machine Learning', 'Model Evaluation', 'Data Visualization', 'Jupyter Notebook'],
-        url: 'https://drive.google.com/drive/folders/1ERD0Elr9q3EhLK0wpiWk3yp7ChWpetGQ?usp=sharing'
+        url: 'https://drive.google.com/drive/u/3/folders/1KO6o9C1H0Kbf9aq0hu5oDSY2aF9hPB68'
       },
       {
         img: anomaly1,
         title: 'Anomaly Seekers - Time Series Forecasting',
-        author: 'Jainam Gala',
+        author: 'Shrutha Keerthi',
         skill: ['Time Series Forecasting', 'Machine Learning', 'Model Evaluation', 'Jupyter Notebook'],
-        url: 'https://drive.google.com/drive/folders/13eGk0JlZosCX5_kqoj48SF8QmvMzA25k?usp=sharing'
+        url: 'https://drive.google.com/drive/u/3/folders/1eOU1XO3pqasBR9cTONFTSmU-QZvx1JHP'
       },
       {
         img: bigjab1,
         title: 'Project Big Jab',
-        author: 'Jainam Gala',
+        author: 'Shrutha Keerthi',
         skill: ['Web Scraping', 'Data Visualization', 'GUI Development', 'API Data'],
         url: 'https://www.youtube.com/watch?v=qQwYqAtldx0'
       },
     ],
     'product': [
+
       {
-          img: workday,
-          title: 'Workday Talent Assessment',
-          author: 'Jainam Gala',
-          skill: ['Business Strategy', 'Marketing', 'Financial Analysis', 'Market Positioning', 'Product Concept', 'Wireframing'],
-          url: 'https://drive.google.com/file/d/1QSodq-sGyCiYs_wSE_IHe6K2YGKzdJRa/view'
-      },
+        img: zar1,
+        title: 'Zara Case Study',
+        author: 'Shrutha Keerthi',
+        skill: ['Human Computer Interaction','Customer Journey Map','Usability Testing', 'Feature Breakdown', 'Differentiation','Prototypes','Figma'],
+        url: 'https://drive.google.com/drive/u/3/folders/1KO6o9C1H0Kbf9aq0hu5oDSY2aF9hPB68'
+    },
       {
-          img: likewise,
-          title: 'Likewise Dating App',
-          author: 'Jainam Gala',
+          img: tele,
+          title: 'Tele health App',
+          author: 'Shrutha Keerthi',
           skill: ['New Product', 'User Personas', 'User Interviews', 'Competitor Analysis', 'Differentiation', 'Financial Analysis'],
-          url: 'https://docs.google.com/presentation/d/1f5mgnotPhHHz7z6qkKqdc9tw5TK2w-j4/edit#slide=id.p1'
+          url: 'https://drive.google.com/drive/u/3/folders/1eajvMnIkqBYgVu-ifitQdAQy6AQ7FOZd'
       },
       {
-          img: linkedin,
-          title: 'Linkedin Competitive Analysis',
-          author: 'Jainam Gala',
+          img: comm,
+          title: 'PNC Communication Strategy',
+          author: 'Shrutha Keerthi',
           skill: ['Competitor Analysis', 'SWOT Analysis', 'Market Research', 'Product Teardown', 'Growth Strategy', 'Marketing Strategy'],
-          url: 'https://drive.google.com/file/d/1kFiJdGLxsMymToGJz67zeo5a9IJBkUIE/view'
+          url: 'https://drive.google.com/drive/u/3/folders/1j2f2ORhgf8mmBDzinK_yX1QoRMqPf0kQ'
       },
-      {
-          img: classplus,
-          title: 'Classplus Feature Critique',
-          author: 'Jainam Gala',
-          skill: ['User Journey', 'User Persona', 'Prioritization', 'Metrics'],
-          url: 'https://drive.google.com/file/d/115QXjzqLU3O0DcKHsrYLLKi3fHI8cGZq/view'
-      },
+
       {
           img: recruit,
-          title: 'Recruitment in Startups',
-          author: 'Jainam Gala',
-          skill: ['User Journey', 'User Persona', 'Effort-Impact', 'Metrics', ],
-          url: 'https://drive.google.com/file/d/18olJJvw3aGpnLAPF4Nbh1q7S63HNglyn/view'
+          title: 'Veterans Leadership Program',
+          author: 'Shrutha Keerthi',
+          skill: ['Pro Bono Consulting', 'Strategy' ],
+          url: 'https://drive.google.com/drive/u/3/folders/19NaYHqvegZIo4rlgJN7CA96G4iSjqSUV'
+      },
+
+      {
+        img: dms,
+        title: 'Digital Marketing and Social Media Strategy',
+        author: 'Shrutha Keerthi',
+        skill: ['Air France Case', 'L’Oreal Paris', 'Rocket Fuel' , 'Artea', 'Glossier', 'Getty Museum'],
+        url: 'https://drive.google.com/drive/u/3/folders/1l_IxQsbDOLSJymQOMzwLH_NUaZEm9I_o'
       },
       {
-          img: gpay,
-          title: 'Favorite Product - Google Pay',
-          author: 'Jainam Gala',
-          skill: ['User Types', 'Feature Breakdown', 'Differentiation'],
-          url: 'https://drive.google.com/file/d/1bfAj74DE0LSFGdoNlgDDZbuRtzokJvia/view'
+      img: mm,
+      title: 'Marketing Management',
+      author: 'Shrutha Keerthi',
+      skill: ['Cialis Case', 'Adobe', 'NY Times' , 'Drop Box'],
+      url: 'https://drive.google.com/drive/u/3/folders/1g3PxwEK_HhsoWB2teIX5BbJo-ItzMMca'
       },
+      {
+      img: mm1,
+      title: 'Market Research',
+      author: 'Shrutha Keerthi',
+      skill: ['SPSS', 'Microvan Case'],
+      url: 'https://drive.google.com/drive/u/3/folders/1UbMgKP85kBsElc-fuuBRrNA0zXNtZJAX'
+      },
+    {
+      img: mm2,
+      title: 'Operations Management',
+      author: 'Shrutha Keerthi',
+      skill: ['Regression', 'Optimization', "Simulation"],
+      url: 'https://drive.google.com/drive/u/3/folders/1UbMgKP85kBsElc-fuuBRrNA0zXNtZJAX'
+    },
+
+      {
+        img: workday,
+        title: 'Workday Talent Assessment',
+        author: 'Shrutha Keerthi',
+        skill: ['Business Strategy', 'Marketing', 'Financial Analysis', 'Market Positioning', 'Product Concept', 'Wireframing'],
+        url: 'https://drive.google.com/drive/u/3/folders/1eOU1XO3pqasBR9cTONFTSmU-QZvx1JHP'
+    },
       {
           img: swiggy,
           title: 'Swiggy - Food Delivery',
-          author: 'Jainam Gala',
+          author: 'Shrutha Keerthi',
           skill: ['Problem Solving', 'User Persona'],
-          url: 'https://drive.google.com/file/d/1bfAj74DE0LSFGdoNlgDDZbuRtzokJvia/view'
+          url: 'https://drive.google.com/drive/u/3/folders/1KO6o9C1H0Kbf9aq0hu5oDSY2aF9hPB68'
       },
+      {
+        img: classplus,
+        title: 'Classplus Feature Critique',
+        author: 'Shrutha Keerthi',
+        skill: ['User Journey', 'User Persona', 'Prioritization', 'Metrics'],
+        url: 'https://drive.google.com/drive/u/3/folders/1j2f2ORhgf8mmBDzinK_yX1QoRMqPf0kQ'
+    },
     ]
   };
 

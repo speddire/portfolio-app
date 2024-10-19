@@ -67,20 +67,20 @@ const handleChange = (event, newValue) => {
       
       
     >
-      <Tab icon={<CodeIcon />} label="Software" style={{
+      <Tab icon={<CodeIcon />} label="Product" style={{
         width: "100%", color: "#dcd6c1",
       }} />
       <Tab icon={<InsightsIcon />} label="Data" style={{
         width: "100%", color: "#dcd6c1",
       }}/>
-      <Tab icon={<CategoryIcon />} label="Product" style={{
+      <Tab icon={<CategoryIcon />} label="Software" style={{
         width: "100%", color: "#dcd6c1",
       }}/>
     </Tabs>
     </div>
-      { value == 0 ? <TitlebarBelowImageList tabName='software'/>
+      { value == 0 ? <TitlebarBelowImageList tabName='product'/>
         : value == 1 ? <TitlebarBelowImageList tabName='data'/>
-        : value == 2 ? <TitlebarBelowImageList tabName='product'/>
+        : value == 2 ? <TitlebarBelowImageList tabName='software'/>
         : <></>
       }
       </ThemeProvider>

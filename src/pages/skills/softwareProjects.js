@@ -32,7 +32,7 @@ export default function Software() {
   borderRadius:"10%"
   }}/> */}
             <iframe
-              src="https://drive.google.com/file/d/1P21z07BHijHDQgNKGEevJUWYqGVuEE1j/preview"
+              src=""
               width="540"
               height="280"
               style={{
@@ -64,7 +64,7 @@ export default function Software() {
               color={"white"}
             >
               <a
-                href="https://github.com/f20180445/search_engine"
+                href="https://github.com/speddire"
                 target="_blank"
                 style={{
                   color: "#dcd6c1",
@@ -97,7 +97,7 @@ export default function Software() {
               color={"white"}
             >
               <a
-                href="https://drive.google.com/drive/folders/1o-BvqsDup6rSG7DI0j7yF3Was2sK3nfD?usp=sharing"
+                href=""
                 target="_blank"
                 style={{
                   color: "#fff",
@@ -135,7 +135,7 @@ export default function Software() {
                 color={"white"}
               >
                 <a
-                  href="https://drive.google.com/drive/folders/1o-BvqsDup6rSG7DI0j7yF3Was2sK3nfD?usp=sharing"
+                  href=""
                   target="_blank"
                   style={{
                     color: "#dcd6c1",
@@ -201,7 +201,7 @@ export default function Software() {
                 color={"white"}
               >
                 <a
-                  href="https://drive.google.com/drive/folders/1vz3B-EHS49HoezMopypt53UqLxhVkTE5?usp=sharing"
+                  href=""
                   target="_blank"
                   style={{
                     color: "#dcd6c1",

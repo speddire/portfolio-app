@@ -47,8 +47,8 @@ const Home = () => {
                 }}
               >
                 <InstagramEmbed
-                  url="https://www.instagram.com/p/C_udixLR2_B"
-                  width={isMobile ? "100%" : 328}
+                  url="https://www.instagram.com/p/DBRTxYnxepZ"
+                  width={isMobile ? "75%" : 328}
                   height={isMobile ? 400 : 600}
                 />
               </div>
