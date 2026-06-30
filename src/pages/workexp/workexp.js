@@ -16,45 +16,139 @@ import ConstructionIcon from "@mui/icons-material/Construction";
 import CloudQueueIcon from "@mui/icons-material/CloudQueue";
 import OutlinedCard from "../../components/work_ex_card";
 import Slide from "@mui/material/Slide";
-import Code from "@mui/icons-material/Code";
 
 export default function WorkExperience() {
-  const HSBC = OutlinedCard("Software Engineer Promoted to Team Lead", "HSBC", [
-    "PHP",
-    "Python",
-    "JavaScript",
-    "Dialogflow",
+  const PepBoys = OutlinedCard("Product Insights & Analytics Manager", "Pep Boys", [
+    "Store Performance Analytics Platform",
+    "Google Ratings Impact Analysis",
+    "Competitive Intelligence Reporting",
+    "Customer Journey Analytics",
+    "Brake Service Conversion Insights",
+    "Executive KPI Dashboards",
+    "Lead Aging Reduction",
+    "CVI / Declined Services Analytics",
+    "SQL / Python",
+    "Tableau / Power BI",
+    "Jira / Confluence",
+    "Marketing & Operations Analytics",
   ]);
-  const JPMorgan = OutlinedCard("Senior Associate - Product Management Specialist", "JP Morgan Chase & Co.", [
-    "Python",
-    "SQL",
-    "Cloud Migration",
-    "Digital Transformation",
+
+  const CMUResearch = OutlinedCard(
+    "Research Assistant to Prof. Dr. Raj Reddy",
+    "Carnegie Mellon University",
+    [
+      "GenAI",
+      "LLM Research",
+      "Data Analytics",
+      "SQL",
+      "Data Visualization",
+      "AI Product Research",
+    ]
+  );
+
+  const PNC = OutlinedCard("Senior Product Consultant", "PNC Financial Services Group", [
+    "Digital Migration Strategy",
+    "Customer Segmentation",
+    "Adoption Risk Analysis",
+    "Communication Roadmap",
+    "GenAI / LLM",
+    "Data Analytics",
+    "Executive Recommendations",
   ]);
+
   const Mobileforce = OutlinedCard("Senior Product Manager Intern", "Mobileforce Software", [
     "CPQ",
     "CRM",
-    "AI-driven Enhancements",
+    "AI-Driven Enhancements",
+    "Product Roadmap",
+    "User Research",
     "Data-Driven Decisions",
   ]);
-  const PNC = OutlinedCard("Senior Product Consultant", "PNC Financial Services Group", [
-    "GenAI",
-    "LLM",
-    "Data Analytics",
-    "Digital Migration Strategy",
-  ]);
-  const CMUResearch = OutlinedCard(
-    "Research Assistant to Prof. Dr. Raj Reddy", 
-    "Carnegie Mellon University",
-    ["GenAI", "LLM", "Data Analytics", "SQL", "Data Visualization"]
-  );
+
   const MBA = OutlinedCard(
-    "Master of Business Administration (STEM)", 
-    "Carnegie Mellon University - Tepper School of Business", 
-    ["Data-Driven Strategy", "Market Research", "Cross-Functional Collaboration"]
+    "Master of Business Administration (STEM)",
+    "Carnegie Mellon University - Tepper School of Business",
+    [
+      "Business Analytics",
+      "Data-Driven Strategy",
+      "Market Research",
+      "Product Strategy",
+      "Cross-Functional Collaboration",
+      "Forte Fellow",
+      "Toigo Fellow",
+    ]
   );
 
-  const isSmallScreen = useMediaQuery(theme.breakpoints.down('sm'));
+  const JPMorgan = OutlinedCard("Senior Associate - Product Management Specialist", "JP Morgan Chase & Co.", [
+    "Cloud Migration",
+    "Document Management Platform",
+    "AWS DMS / CloudWatch",
+    "Mainframe Modernization",
+    "Agile Delivery",
+    "Backlog Prioritization",
+    "ADA-Compliant Communications",
+    "Compliance Reporting",
+    "$3M Annual Savings",
+  ]);
+
+  const HSBC = OutlinedCard("Software Engineer Promoted to Team Lead", "HSBC", [
+    "Core Banking Modernization",
+    "Regulatory Enhancements",
+    "Risk & Compliance Systems",
+    "Application Delivery",
+    "Defect Management",
+    "Python",
+    "PHP",
+    "JavaScript",
+    "Team Leadership",
+  ]);
+
+  const isSmallScreen = useMediaQuery(theme.breakpoints.down("sm"));
+
+  const timelineItems = [
+    {
+      date: "February 2025 - Present",
+      card: PepBoys,
+      icon: <InsightsIcon color="primary" />,
+      direction: "right",
+    },
+    {
+      date: "May 2024 - Present",
+      card: CMUResearch,
+      icon: <ConstructionIcon color="primary" />,
+      direction: "left",
+    },
+    {
+      date: "January 2024 - May 2024",
+      card: PNC,
+      icon: <CodeIcon color="primary" />,
+      direction: "right",
+    },
+    {
+      date: "June 2023 - December 2023",
+      card: Mobileforce,
+      icon: <InsightsIcon color="primary" />,
+      direction: "left",
+    },
+    {
+      date: "August 2022 - May 2024",
+      card: MBA,
+      icon: <CategoryIcon color="primary" />,
+      direction: "right",
+    },
+    {
+      date: "August 2017 - July 2022",
+      card: JPMorgan,
+      icon: <CloudQueueIcon color="primary" />,
+      direction: "left",
+    },
+    {
+      date: "July 2011 - August 2017",
+      card: HSBC,
+      icon: <ConstructionIcon color="primary" />,
+      direction: "right",
+    },
+  ];
 
   return (
     <>
@@ -62,173 +156,45 @@ export default function WorkExperience() {
         <Navbar />
         <Grid container justifyContent="center">
           <Timeline position={isSmallScreen ? "left" : "alternate"}>
-            <Slide direction="right" in={true} mountOnEnter unmountOnExit timeout={1500}>
-              <TimelineItem>
-                {!isSmallScreen && (
-                  <TimelineOppositeContent color="#264143">
-                    <Typography fontFamily={"monospace"} style={{ marginTop: 10 }}>
-                      May 2024 - Present
-                    </Typography>
-                  </TimelineOppositeContent>
-                )}
-                <TimelineSeparator>
-                  <TimelineDot color="secondary">
-                    <ConstructionIcon color="primary" />
-                  </TimelineDot>
-                  {!isSmallScreen && <TimelineConnector sx={{ background: "#264143" }} />}
-                </TimelineSeparator>
-                <TimelineContent color={"#62b0a5"} width={100}>
-                  {CMUResearch}
-                </TimelineContent>
-                {isSmallScreen && (
-                  <TimelineOppositeContent color="#264143">
-                    <Typography fontFamily={"monospace"} style={{ marginTop: 10 }}>
-                      May 2024 - Present
-                    </Typography>
-                  </TimelineOppositeContent>
-                )}
-              </TimelineItem>
-            </Slide>
+            {timelineItems.map((item, index) => (
+              <Slide
+                key={index}
+                direction={item.direction}
+                in={true}
+                mountOnEnter
+                unmountOnExit
+                timeout={1500}
+              >
+                <TimelineItem>
+                  {!isSmallScreen && (
+                    <TimelineOppositeContent color="#264143">
+                      <Typography fontFamily={"monospace"} style={{ marginTop: 10 }}>
+                        {item.date}
+                      </Typography>
+                    </TimelineOppositeContent>
+                  )}
 
-            <Slide direction="left" in={true} mountOnEnter unmountOnExit timeout={1500}>
-              <TimelineItem>
-                {!isSmallScreen && (
-                  <TimelineOppositeContent color="#264143">
-                    <Typography fontFamily={"monospace"} style={{ marginTop: 10 }}>
-                      January 2024 - May 2024
-                    </Typography>
-                  </TimelineOppositeContent>
-                )}
-                <TimelineSeparator>
-                  <TimelineDot color="secondary">
-                    <CodeIcon color="primary" />
-                  </TimelineDot>
-                  {!isSmallScreen && <TimelineConnector sx={{ background: "#264143" }} />}
-                </TimelineSeparator>
-                <TimelineContent color={"#62b0a5"} width={100}>
-                  {PNC}
-                </TimelineContent>
-                {isSmallScreen && (
-                  <TimelineOppositeContent color="#264143">
-                    <Typography fontFamily={"monospace"} style={{ marginTop: 10 }}>
-                      January 2024 - May 2024
-                    </Typography>
-                  </TimelineOppositeContent>
-                )}
-              </TimelineItem>
-            </Slide>
+                  <TimelineSeparator>
+                    <TimelineDot color="secondary">{item.icon}</TimelineDot>
+                    {index !== timelineItems.length - 1 && !isSmallScreen && (
+                      <TimelineConnector sx={{ background: "#264143" }} />
+                    )}
+                  </TimelineSeparator>
 
-            <Slide direction="right" in={true} mountOnEnter unmountOnExit timeout={1500}>
-              <TimelineItem>
-                {!isSmallScreen && (
-                  <TimelineOppositeContent color="#264143">
-                    <Typography fontFamily={"monospace"} style={{ marginTop: 10 }}>
-                      June 2023 - December 2023
-                    </Typography>
-                  </TimelineOppositeContent>
-                )}
-                <TimelineSeparator>
-                  <TimelineDot color="secondary">
-                    <InsightsIcon color="primary" />
-                  </TimelineDot>
-                  {!isSmallScreen && <TimelineConnector sx={{ background: "#264143" }} />}
-                </TimelineSeparator>
-                <TimelineContent color={"#62b0a5"} width={100}>
-                  {Mobileforce}
-                </TimelineContent>
-                {isSmallScreen && (
-                  <TimelineOppositeContent color="#264143">
-                    <Typography fontFamily={"monospace"} style={{ marginTop: 10 }}>
-                      June 2023 - December 2023
-                    </Typography>
-                  </TimelineOppositeContent>
-                )}
-              </TimelineItem>
-            </Slide>
+                  <TimelineContent color={"#62b0a5"} width={100}>
+                    {item.card}
+                  </TimelineContent>
 
-            <Slide direction="left" in={true} mountOnEnter unmountOnExit timeout={1500}>
-              <TimelineItem>
-                {!isSmallScreen && (
-                  <TimelineOppositeContent color="#264143">
-                    <Typography fontFamily={"monospace"} style={{ marginTop: 10 }}>
-                      August 2022 - May 2024
-                    </Typography>
-                  </TimelineOppositeContent>
-                )}
-                <TimelineSeparator>
-                  <TimelineDot color="secondary">
-                    <CategoryIcon color="primary" />
-                  </TimelineDot>
-                  {!isSmallScreen && <TimelineConnector sx={{ background: "#264143" }} />}
-                </TimelineSeparator>
-                <TimelineContent color={"#62b0a5"} width={100}>
-                  {MBA}
-                </TimelineContent>
-                {isSmallScreen && (
-                  <TimelineOppositeContent color="#264143">
-                    <Typography fontFamily={"monospace"} style={{ marginTop: 10 }}>
-                      August 2022 - May 2024
-                    </Typography>
-                  </TimelineOppositeContent>
-                )}
-              </TimelineItem>
-            </Slide>
-
-            <Slide direction="right" in={true} mountOnEnter unmountOnExit timeout={1500}>
-              <TimelineItem>
-                {!isSmallScreen && (
-                  <TimelineOppositeContent color="#264143">
-                    <Typography fontFamily={"monospace"} style={{ marginTop: 10 }}>
-                      August 2017 - July 2022
-                    </Typography>
-                  </TimelineOppositeContent>
-                )}
-                <TimelineSeparator>
-                  <TimelineDot color="secondary">
-                    <CloudQueueIcon color="primary" />
-                  </TimelineDot>
-                  {!isSmallScreen && <TimelineConnector sx={{ background: "#264143" }} />}
-                </TimelineSeparator>
-                <TimelineContent color={"#62b0a5"} width={100}>
-                  {JPMorgan}
-                </TimelineContent>
-                {isSmallScreen && (
-                  <TimelineOppositeContent color="#264143">
-                    <Typography fontFamily={"monospace"} style={{ marginTop: 10 }}>
-                      August 2017 - July 2022
-                    </Typography>
-                  </TimelineOppositeContent>
-                )}
-              </TimelineItem>
-            </Slide>
-
-            <Slide direction="left" in={true} mountOnEnter unmountOnExit timeout={1500}>
-              <TimelineItem>
-                {!isSmallScreen && (
-                  <TimelineOppositeContent color="#264143">
-                    <Typography fontFamily={"monospace"} style={{ marginTop: 10 }}>
-                      July 2011 - August 2017
-                    </Typography>
-                  </TimelineOppositeContent>
-                )}
-                <TimelineSeparator>
-                  <TimelineDot color="secondary">
-                    <ConstructionIcon color="primary" />
-                  </TimelineDot>
-                  {!isSmallScreen && <TimelineConnector sx={{ background: "#264143" }} />}
-                </TimelineSeparator>
-                <TimelineContent color={"#62b0a5"} width={100}>
-                  {HSBC}
-                </TimelineContent>
-                {isSmallScreen && (
-                  <TimelineOppositeContent color="#264143">
-                    <Typography fontFamily={"monospace"} style={{ marginTop: 10 }}>
-                      July 2011 - August 2017
-                    </Typography>
-                  </TimelineOppositeContent>
-                )}
-              </TimelineItem>
-            </Slide>
+                  {isSmallScreen && (
+                    <TimelineOppositeContent color="#264143">
+                      <Typography fontFamily={"monospace"} style={{ marginTop: 10 }}>
+                        {item.date}
+                      </Typography>
+                    </TimelineOppositeContent>
+                  )}
+                </TimelineItem>
+              </Slide>
+            ))}
           </Timeline>
         </Grid>
       </ThemeProvider>
